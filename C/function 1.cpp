@@ -4,7 +4,7 @@ void square()
 {
 	float length;
 	printf("enter length \n ");
-	scanf("%f %f",&square);
+	scanf("%f",&length);
 	float area = length* length;
 	
 	printf("%f \n",area);
@@ -18,7 +18,7 @@ int rectangle()
 	scanf("%f %f",&length,&height);
 	float area= length * height;
 	
-	printf("%d \n",area);
+	printf("%f \n",area);
 	
 }
 int circle()
@@ -26,10 +26,10 @@ int circle()
 {
 	float radius;
 	printf("enter the radius of the circle \n");
-	scanf("%f",&circle);
+	scanf("%f",&radius);
 	float area=3.14 * radius* radius;
 	
-	printf("%d \n",area);
+	printf("%f \n",area);
 	
 }
  main()
