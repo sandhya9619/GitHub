@@ -10,7 +10,7 @@ int main()
 	printf("enter cost price\n");
 	scanf("%f",&costprice);
 	profit==sellingprice-costprice;
-	loss==costprice-costprice;
+	loss==costprice-sellingprice;
 	
 	
 	if (sellingprice<costprice)

@@ -38,7 +38,7 @@ int circle()
 	printf("enter your choice\n");
 	printf("1. square\n");
 	printf("2. rectangle\n");
-	printf("3.circle\n");
+	printf("3. circle\n");
 	scanf("%d",&choice);
 	
 	
