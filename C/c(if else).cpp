@@ -5,7 +5,7 @@ int main()
 	if(sellery<=30000)
 	{
 		printf("buy a new dress");
-		
+		scanf("%d", &sellery);
     }
 	else
 	{
