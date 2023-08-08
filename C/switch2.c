@@ -5,10 +5,10 @@ main()
 	printf("enter a character ");
 	scanf("%c",&charecter);
 	
-	switch(charecter);
+	switch(charecter)
 	{
 		case 'a':
-			printf( charecter is vowel);
+			printf( "charecter is vowel");
 			break;
 		case 'e':
 			printf("charecter is vowel");
@@ -25,7 +25,7 @@ main()
 		printf("charecter is vowel");
 		break;
 		
-		default;
+		default:
 		printf("charecter is consenent");
 	}
 	
