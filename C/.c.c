@@ -2,7 +2,7 @@
 
 int main() {
     char name[] = "sandhya";
-    char birthdate[] = "25,jun 2003";
+    char birthdate[] = "19,jun 2003";
     int age = 21;
     char address[] = "gir somnath";
 
